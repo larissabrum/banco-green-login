@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>GREEN</title>
+</head>
+<body>
+    <main>
+        <div class="main-box">
+            <div class="inner-box">
+                <div class="forms">                 
+                    <form action="index.html" autocomplete="off" class="login-form">
+                        <div class="logo">
+                            <img src="./imagens/leaf.png" alt="green-logo">
+                            <h4>Green</h4>
+                        </div>
+
+                        <div class="heading">
+                            <h2>Bem-vindo!</h2>
+                            <h6>Não tem uma conta ainda?</h6>
+                            <a href="#" class="calltoaction">Cadastrar</a>
+                        </div>
+
+                      <div class="info-form">
+                          <div class="input">
+                            <input type="email" minlength="4" class="input-area" autocomplete="off"  required />
+                            <label>E-mail</label>
+                          </div>
+
+                          <div class="input">
+                            <input type="password" minlength="4" class="input-area" autocomplete="off" required />
+                            <label>Senha</label>
+                          </div>
+
+                          <input type="submit" value="Entrar" class="login-btn">    
+                          
+                          <p class="text">
+                              Esqueceu sua senha? Obtenha
+                              <a href="#">ajuda</a> para entrar.
+                          </p>
+                      </div>  
+                    </form>
+
+                    <form action="index.html" autocomplete="off" class="register-form">
+                        <div class="logo">
+                            <img src="./imagens/leaf.png" alt="green-logo">
+                            <h3>Green</h3>
+                        </div>
+
+                        <div class="heading">
+                            <h2>Cadastre-se</h2>
+                            <h6>Já é cliente?</h6>
+                            <a href="#" class="calltoaction">Entrar</a>
+                        </div>
+
+                      <div class="info-form">
+                          <div class="input">
+                            <input type="text" minlength="4" class="input-area" autocomplete="off"  required />
+                            <label>Nome Completo</label>
+                          </div>
+
+                          <div class="input">
+                            <input type="email" class="input-area" autocomplete="off"  required />
+                            <label>E-mail</label>
+                          </div>
+
+                          <div class="input">
+                            <input type="tel" minlength="11" maxlength="11" class="input-area" autocomplete="off"  required pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" />
+                            <label>Telefone</label>
+                          </div>
+
+                          <div class="input">
+                            <input type="number" minlength="4" class="input-area" autocomplete="off"  required />
+                            <label>CPF</label>
+                          </div>
+
+                          <div class="input">
+                            <input type="text" name="date" class="input-area" onfocus="(this.type='date')" onblur="if(!this.value) this.type='text'" />
+                            <label>Nascimento</label>
+                          </div>
+
+                          <div class="input">
+                            <input type="password" minlength="4" class="input-area" autocomplete="off" required />
+                            <label>Senha</label>
+                          </div>
+
+                          <input type="submit" value="Cadastrar" class="login-btn">    
+                          
+                          <p class="text">
+                              Eu concordo com os 
+                              <a href="#">Termos de Uso</a> 
+                          </p>
+                      </div>  
+                    </form>
+                                      
+                </div>
+
+                <div class="images">
+                    <div class="images-slide">
+                        <img src="./imagens/piggy-bank.png" class="image img1 show" alt="logo-green">
+                        <img src="./imagens/wallet.png" class="image img2" alt="folha">
+                        <img src="./imagens/img1.png" class="image img3" alt="sustentabilidade">
+                    </div>
+
+                    <div class="text-slide">
+                        <div class="texts">
+                            <div class="text-group">
+                             <h2>Saia do vermelho com a Green!</h2>
+                             <h2>Torne seu bolso mais leve.</h2>
+                             <h2>Um banco sustentável.</h2>   
+                            </div>
+                        </div>
+
+                        <div class="bullets">
+                            <span class="active" data-value="1"></span>
+                            <span data-value="2"></span>
+                            <span data-value="3"></span>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </main>
+    
+
+
+    <!--JAVASCRIPT-->
+    <script src="./script/app.js"></script>
+</body>
+</html>
